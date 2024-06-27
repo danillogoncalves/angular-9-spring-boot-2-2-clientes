@@ -7,6 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.util.Optional;
+
 @RestController
 @RequestMapping("/api/clientes")
 public class ClienteController {
@@ -37,6 +39,19 @@ public class ClienteController {
       repository.delete(cliente);
       return Void.TYPE;
     }).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+  }
+
+  @PutMapping
+  @ResponseStatus(HttpStatus.NO_CONTENT)
+  public void atualizar(@RequestBody Cliente updateCliente) {
+    Optional.ofNullable(updateCliente.getId())
+            .map(repository::findById)
+            .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND))
+            .ifPresent(cliente -> {
+              cliente.setNome(Optional.ofNullable(updateCliente.getNome()).orElseThrow(() -> new ResponseStatusException(HttpStatus.BAD_REQUEST)));
+              cliente.setNome(Optional.ofNullable(updateCliente.getCpf()).orElseThrow(() -> new ResponseStatusException(HttpStatus.BAD_REQUEST)));
+              repository.save(updateCliente);
+            });
   }
 
 }
