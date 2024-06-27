@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649183a9-9141-4fd8-aa86-cab878e58173" name="Changes" comment="24. Testando a conexão com o banco de dados">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/rest/ClienteController.java" afterDir="false" />
+    <list default="true" id="649183a9-9141-4fd8-aa86-cab878e58173" name="Changes" comment="25. Iniciando a API de Clientes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/ClientesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/ClientesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/mode/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/repository/ClienteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/mode/repository/ServicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/repository/ServicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/rest/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/rest/ClienteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719447781631</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="25. Iniciando a API de Clientes">
+      <option name="closed" value="true" />
+      <created>1719448593414</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719448593414</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +157,7 @@
     <MESSAGE value="22. Criando os Repositorios JPA" />
     <MESSAGE value="23. Configurando e obtendo conexôes com base de dados" />
     <MESSAGE value="24. Testando a conexão com o banco de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="24. Testando a conexão com o banco de dados" />
+    <MESSAGE value="25. Iniciando a API de Clientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="25. Iniciando a API de Clientes" />
   </component>
 </project>
