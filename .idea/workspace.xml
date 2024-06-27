@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649183a9-9141-4fd8-aa86-cab878e58173" name="Changes" comment="23. Configurando e obtendo conexôes com base de dados">
+    <list default="true" id="649183a9-9141-4fd8-aa86-cab878e58173" name="Changes" comment="24. Testando a conexão com o banco de dados">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/rest/ClienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/ClientesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/ClientesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/mode/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/mode/repository/ServicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/repository/ServicoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -130,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719446997483</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="24. Testando a conexão com o banco de dados">
+      <option name="closed" value="true" />
+      <created>1719447781631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719447781631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +149,7 @@
     <MESSAGE value="21. Mapeando a Entidade Servico Prestado" />
     <MESSAGE value="22. Criando os Repositorios JPA" />
     <MESSAGE value="23. Configurando e obtendo conexôes com base de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="23. Configurando e obtendo conexôes com base de dados" />
+    <MESSAGE value="24. Testando a conexão com o banco de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="24. Testando a conexão com o banco de dados" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 package io.github.danillogoncalves.clientes;
 
-import io.github.danillogoncalves.clientes.mode.repository.ClienteRepository;
+import io.github.danillogoncalves.clientes.model.repository.ClienteRepository;
 import io.github.danillogoncalves.clientes.model.entity.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

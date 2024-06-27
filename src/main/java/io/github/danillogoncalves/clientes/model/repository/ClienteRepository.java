@@ -1,4 +1,4 @@
-package io.github.danillogoncalves.clientes.mode.repository;
+package io.github.danillogoncalves.clientes.model.repository;
 
 import io.github.danillogoncalves.clientes.model.entity.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
