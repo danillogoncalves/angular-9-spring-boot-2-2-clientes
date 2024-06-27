@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649183a9-9141-4fd8-aa86-cab878e58173" name="Changes" comment="22. Criando os Repositorios JPA">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="649183a9-9141-4fd8-aa86-cab878e58173" name="Changes" comment="23. Configurando e obtendo conexôes com base de dados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/ClientesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/ClientesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/model/entity/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719446094428</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="23. Configurando e obtendo conexôes com base de dados">
+      <option name="closed" value="true" />
+      <created>1719446997483</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719446997483</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,6 +138,7 @@
     <MESSAGE value="20. Adicionando o Lombok e configurando o Plugin" />
     <MESSAGE value="21. Mapeando a Entidade Servico Prestado" />
     <MESSAGE value="22. Criando os Repositorios JPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="22. Criando os Repositorios JPA" />
+    <MESSAGE value="23. Configurando e obtendo conexôes com base de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="23. Configurando e obtendo conexôes com base de dados" />
   </component>
 </project>
