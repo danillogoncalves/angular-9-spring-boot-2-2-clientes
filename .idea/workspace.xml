@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649183a9-9141-4fd8-aa86-cab878e58173" name="Changes" comment="26. Cadastro de Cliente através do Postman">
+    <list default="true" id="649183a9-9141-4fd8-aa86-cab878e58173" name="Changes" comment="27. Obtendo as informações de um Cliente">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/rest/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/danillogoncalves/clientes/rest/ClienteController.java" afterDir="false" />
     </list>
@@ -153,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719449584746</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="27. Obtendo as informações de um Cliente">
+      <option name="closed" value="true" />
+      <created>1719450640474</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719450640474</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,6 +173,7 @@
     <MESSAGE value="24. Testando a conexão com o banco de dados" />
     <MESSAGE value="25. Iniciando a API de Clientes" />
     <MESSAGE value="26. Cadastro de Cliente através do Postman" />
-    <option name="LAST_COMMIT_MESSAGE" value="26. Cadastro de Cliente através do Postman" />
+    <MESSAGE value="27. Obtendo as informações de um Cliente" />
+    <option name="LAST_COMMIT_MESSAGE" value="27. Obtendo as informações de um Cliente" />
   </component>
 </project>
